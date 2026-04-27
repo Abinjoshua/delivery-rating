@@ -8,6 +8,7 @@
     'sequence': 1,
     'application': True,
     'depends': ['purchase'],
-    'data': ['views/purchase_order_views.xml'],
+    'data': ['views/purchase_order_views.xml',
+             'views/stock_picking_view.xml',],
     'auto_install': True,
 }
